@@ -1,0 +1,121 @@
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+} */
+body {
+  color: #414141;    /* Dark gray */
+  background-color: #EEEEEE;
+}
+
+h1 {
+  font-size: 2em;
+}
+
+h2 {
+  font-size: 20px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Times New Roman", "Arial", sans-serif;
+}
+
+ul {
+  list-style-type: circle;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Helvetica", "Arial", sans-serif;
+  font-weight: normal;                              /* Add this */
+}
+
+h1, p {
+  background-color: #DDE0E3;    /* Light gray */
+}
+
+em, strong {
+  background-color: #C3B1E1;
+  padding: 8px 10px 10px 8px;
+}
+
+h1 {
+  padding: 50px;
+  border-bottom: 1px solid #5D6063;
+}
+
+/* p {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  padding-left: 10px;
+  padding-right: 10px;
+} */
+p {
+  padding: 20px 0 20px 10px;
+  margin-bottom: 50px;          /* Add this */
+}
+
+ul {
+  background-color: #DDE0E3;
+  /* padding: 20px 20px 20px 10px;
+  margin-bottom: 50px; */
+}
+
+.about {
+          /* Light gray */
+  font-style: italic;
+}
+.button {
+  color: #FFF;
+  background-color: #C3B1E1;    /* Blue */
+  font-weight: bold;
+  padding: 20px;
+  text-align: center;
+  border: 2px solid #5D6063;    /* Dark gray */
+  border-radius: 5px;
+
+  width: 200px;
+  margin: 20px auto;
+}
+
+.page {
+  width: 600px;
+  margin: 0 auto;
+}
+
+.call-to-action {
+  font-style: italic;
+  background-color: #EEB75A;    /* Yellow */
+}
+
+a:link {
+  color: blue;
+  text-decoration: none;
+}
+a:visited {
+  color: purple;
+}
+a:hover {
+  color: grey;
+  text-decoration: underline;
+}
+a:active {
+  color: red;
+}
+
+ul:last-of-type {
+  margin-bottom: 50px;
+}
+#button-2 {
+  color: #5D6063;  /* Dark gray */
+}
+.bar {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  display: inline;
+  background-color: #BBBBBB;
+}
